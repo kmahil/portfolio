@@ -1,0 +1,32 @@
+/*      font       */
+@font-face {
+	font-family: 'Jost';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../font/Jost-Regular.woff') format('woff');
+}
+
+/*      font for h1      */
+@font-face {
+	font-family: 'H1';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../font/Jost-Regular.woff') format('woff');
+}
+
+/* light font */
+@font-face {
+	font-family: 'Jost-Light';
+	font-weight: 900;
+	font-style: normal;
+	src: url('../font/Jost-Light.woff') format('woff');
+}
+
+/* medium font */
+@font-face {
+	font-family: 'Jost-Meduim';
+	font-weight: normal;
+	font-style:normal;
+	src: url('../font/Jost-Medium.woff') format('woff');
+}
+

@@ -1,0 +1,182 @@
+/*      title section      */
+h1 {
+    font-family: "Jost-Light";
+    font-size: 3rem;
+}
+
+.grid {
+    display: grid;
+    padding: 2rem;
+    grid-row-gap:1rem;
+    grid-column-gap: 15rem;
+    margin-left: 4vw;
+
+    align-items:center;
+}
+
+.color {
+    background-color: #FFE793;
+    margin-left: -1rem;
+    margin-right: 0rem;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+@media (min-width: 20rem) {
+    .grid {
+        margin-top: 4rem;
+    }
+
+    .grid p {
+        max-width: 27rem;
+    }
+}
+
+@media (min-width: 50rem) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 5rem;
+    }
+
+    .grid p {
+        max-width: 27rem;
+    }
+}
+
+
+/*     Sketches section     */
+.grid-sketches {
+    display: grid;
+    padding: 2rem;
+    grid-row-gap:1rem;
+    grid-column-gap: 8rem;
+
+    margin-top: 2rem;
+    margin-left: 4vw;
+
+    /* justify-items: center;  */
+    align-items:center;
+}
+
+.sketches-content hr {
+    max-width: 5rem;
+    margin-top: -1.5rem;
+    margin-bottom: 2rem;
+    margin-left: 0rem;
+}
+
+.sketches-content p {
+    max-width: 27rem;
+}
+
+@media (min-width:20rem) {
+    .photos img {
+        max-width:100%;
+        height: auto;
+        /* margin-top: 1rem; */
+    }
+}
+
+@media (min-width:50rem) {
+    .grid-sketches {
+        grid-template-columns: 1fr 0.8fr;
+    }
+    #img-2 {
+        margin-left: 15vw;
+    }
+    .photos img {
+        max-width: 60%;
+        height: auto;
+        margin-top: 1rem;
+    }
+}
+
+
+/*      wireframe section     */
+.wireframes {
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    padding: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    background-color: #FFE793;
+}
+
+.wireframes h2, .wireframes p {
+    text-align: center;
+}
+
+.wireframes hr {
+    max-width: 5rem;
+    margin-top: -1.5rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width:20rem) {
+    .wireframes p {
+        margin-left: 13%;
+        margin-right: 13%;
+    }
+}
+
+@media (min-width:32.375rem) {
+    .wireframes p {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (min-width:49.875rem) {
+    .wireframes p {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
+
+.wireframe-grid {
+    display: grid;
+
+    padding: 2rem;
+    grid-row-gap:1rem;
+    grid-column-gap: 8rem;
+
+    margin-top: 2rem;
+    margin-left: 4vw;
+
+    /* justify-items: center;  */
+    align-items:center;
+}
+
+.wireframe-grid img {
+    width: 90%;
+    height: auto;
+}
+
+@media (min-width:50rem) {
+    .wireframe-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/*      final      */ 
+.final h2 {
+    text-align: center;
+}
+
+.final hr {
+    max-width: 5rem;
+    margin-top: -1.5rem;
+    margin-bottom: 2rem;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+video {
+    min-width: 15rem;
+    padding:1rem;
+}
