@@ -1,0 +1,25 @@
+1. Draft your ethos. To start doing so answer these questions in words or sketches:
+    What is the job you want?
+        Interaction design, with opportunities to use HTML and CSS. I would prefer to work within the health care sector. 
+    What are the qualifications for this job?
+        Prototyping, wireframes, journey maps, HTML/CSS, self-direction 
+    What kind of verbal language would people hiring for this job expect?
+        They would expect professional language but appreciate creativity and individuality. 
+    What kind of visual language would people hiring for this job expect?
+        Visual language depends on the job - some jobs like a minimalistic approach, while others like the use of colour and elements that stand out. Overall, hiring people expect a portfolio that is easy to navigate and shows clarity and precision. 
+    How does your experience prepare you for this job?
+        I have several pieces on my portfolio that showcase interaction design. I have classic UX/UI pieces that show mobile apps. I also have a piece that is healthcare-based and is an interactive learning module. 
+    What characteristics do you have that make you well-suited for the job?
+        I have experience in healthcare design, which provides me with background knowledge in that industry. I also have prototyping, wireframing and HTML/CSS knowledge. 
+
+2. Based on your answers to the questions above, select a prior project and complete a process analysis which helps support why you are qualified for the job. The process analysis should:
+Show your ability to think through a problem from start to finish.
+Show how you iterate over the course of a project.
+Have accompanying artifacts — images, video, audio — that support what the text is saying.
+    https://kmahil01.wixsite.com/portfolio/copy-of-focus-buddy-1
+
+
+3.Be approximately 250-300 words in length.
+    This project was a module, which is part of a larger course that focuses on the Vancouver Assertive Community Treatment Team (ACT) in B.C.. The content in this module aims to teach healthcare professionals how to be resilient while caring for their patients. When starting this project, I was provided a storyboard with content that was to be included in the module. The content was not finalized, therefore I had to keep that in mind when creating the initial sketches. I was the sole designer on the project, therefore I had the creative freedom to explore any direction I wished.  I started my design process by sketching possible layouts for the modules. I explored different ways to showcase the content and broke up the content when there was too much information on a page. After sketching, I used Figma to create the wireframes for the module. I replicated the sketches on Figma but made adjustments to spacing and content where I saw fit. I also added colour to the wireframes to get a sense of what the branding would look like. Once the wireframes were completed, I showed them to the project manager and received feedback. I incorporated the feedback into the wireframes and created new iterations. Lastly, using the wireframes as a guide, I made the final prototype on Storyline. During this stage, I also received feedback and iterated it into the module.
+Write a draft bio using no more than 100 word to introduce yourself. 
+    I'm a senior Interactive Design student at Simon Fraser University. I use interaction design to create user-centred products that will solve a need for users. I have a special interest in the healthcare field, particularly in designing UI for apps and websites, with a focus on rehabilitation and educational materials. I also enjoy using HTML and CSS to create functioning websites that are user-focused, visually pleasing and easy to navigate.

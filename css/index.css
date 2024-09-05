@@ -1,0 +1,248 @@
+body {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+
+/*      headings + p + img      */
+h1 {
+    font-family: "H1";
+    font-size: 8rem;
+    margin-left: 10vw;
+    margin-right: 2rem;
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+/*      name + title section     */
+#job-role {
+    font-family: "Jost-Light";
+    font-size: 2rem;
+
+    background-color: aliceblue;
+
+    margin-top: -4rem;
+    margin-left: -2rem;
+    margin-right: 15vw;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (min-width:20rem) {
+    h1 {
+        font-size: 5rem;
+        margin-top: 12vh
+    }
+
+    #job-role {
+        font-size: 1.2rem;
+        padding-left: 3rem;
+        margin-top: -3rem;
+    }
+
+    .about-me p {
+        margin-left: 13%;
+        margin-right: 13%;
+    }
+}
+
+@media (min-width:32.375rem) {
+    h1 {
+        font-size: 6rem;
+    }
+
+    #job-role {
+        font-size: 1.5rem;
+        padding-left: 3rem;
+    }
+
+    .about-me p {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (min-width:49.875rem) {
+    h1 {
+        font-size: 8rem;
+        margin-top: 20vh;
+    }
+
+    #job-role {
+        font-size: 2rem;
+        margin-top: -5rem;
+    }
+
+    .about-me p {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
+
+/* header img */
+.block {
+    background-color: #FFDCF9;
+    padding:2rem;
+}
+
+.triangle {
+    width:100%;
+    height: auto;
+}
+
+
+/*     about section     */
+.about-me {
+    margin-bottom: 4rem;
+}
+
+.about-me h2 {
+    text-align: center;
+}
+
+.about-me p {
+    font-size: 1rem;
+    font-family: 'Jost';
+    text-align: center;
+
+    display: flex;
+    justify-content:center;
+}
+
+.about-me hr {
+    max-width: 5rem;
+    margin-top: -1.5rem;
+    margin-bottom: 2rem;
+}
+
+/*      project title + hr      */
+.project-hr {
+    margin-left: 4vw;
+    margin-top: 15rem;
+    padding:1rem;
+
+    position: relative;
+    z-index: 10;
+}
+
+.project-hr hr {
+    max-width: 5rem;
+    margin-top: -1.5rem;
+    margin-bottom: 2rem;
+    margin-left: 0rem;
+}
+
+.bg-yellow {
+    width:100%;
+    height:auto;
+    min-height: 30rem;
+    position: absolute;
+    z-index: 1;
+
+}
+
+
+/*      project section      */
+.projects {
+    margin-left: 4vw;
+    padding:1rem;
+
+    position: relative;
+    z-index: 10;
+}
+
+.projects p {
+    margin-bottom: 2rem;
+    max-width: 23rem;
+}
+
+.projects h3 {
+    margin-bottom: 0rem;
+}
+
+.project-grid {
+    display: grid;
+    gap: 4rem; 
+    margin-right: 4vw;
+    
+    justify-items: center; 
+    align-items: center;
+}
+
+@media (min-width:66.375rem) {
+    .project-grid {
+        grid-template-columns: 0.5fr 1fr;
+    }
+}
+
+/*      view button     */
+.view-button {
+    font-family: "Jost";
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+
+    padding: 0.6rem;
+    width: 5rem;
+
+    color: #715d36;
+    background-color: white;
+    border: solid;
+    border-width: 0.2rem;
+    border-radius: 0.5rem;
+    border-color: #FFE793;
+
+    transition-property: background-color, border-color;
+    transition-duration: 0.2s;
+
+    display: inline-block;
+}
+
+.view-button:hover, .nav-button:focus {
+    background-color: #FFE793;
+    border-color: #FFE793;
+}
+
+
+/*      contact section     */
+.contact {
+    margin-top: 6rem;
+    padding: 1rem;
+    text-align: center;
+
+    background-color: #FFDCF9;
+}
+
+.contact hr {
+    max-width: 5rem;
+    margin-top: -1.5rem;
+    margin-bottom: 2rem;
+    border-top: 1px solid black
+}
+
+.contact a {
+    color: black;
+    text-decoration: none;
+
+    transition-property: color;
+    transition-duration: 0.2s;
+}
+
+.contact a:hover, .contact a:focus {
+    color: blue;
+}
+
+
+/*      copyright section       */
+#copyright {
+    text-align: center;
+    padding: 1rem;
+}
