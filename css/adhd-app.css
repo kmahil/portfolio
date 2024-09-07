@@ -5,6 +5,7 @@ h1 {
   text-align: center;
 }
 
+/* main title */
 @media (min-width: 20rem) {
   h1{
   font-size: 4rem;
@@ -26,14 +27,16 @@ h3 {
   font-size: 1.5rem;
 }
 
+body {
+  margin: 0;
+}
+
 
 /*     title block     */
 .title {
   background-color: #BEE4D3;
-  margin-left: 0rem;
-  margin-right: 0rem;
   margin-top: 1rem;
-  padding: 5rem;
+  padding: 4rem;
 }
 
 /* description title block */
@@ -75,6 +78,7 @@ h3 {
 .ideation-sec {
   background-color: #FAB2AC;
   padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 #ideation-title {
@@ -114,5 +118,106 @@ h3 {
   .grid-ideation img {
     max-width: 90%;
     height: auto;
+  }
+}
+
+/*      prototype section     */
+.prototype {
+  margin-bottom: 4rem;
+}
+
+.prototype-sub-titles {
+  padding-top: 4rem;
+  margin-left: 5vw;
+  text-decoration: underline;
+}
+
+.prototype-explanation {
+  padding-top: 5rem;
+  margin-left: 5vw;
+}
+
+#prototype-p {
+  margin-top: 3rem;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  text-align: center;
+}
+
+/* 2 column */
+.signup-grid-2-column {
+  display: grid;
+  grid-row-gap:1rem;
+  grid-column-gap: 1rem;
+  padding-top:2rem;
+  justify-items: center;
+  align-items: center;
+}
+
+@media (min-width: 29.375rem) {
+  .signup-grid-2-column {
+    grid-template-columns: 1fr 1fr;
+    max-width: 30rem;
+    margin: 0 auto;
+  }
+}
+
+/* 3 column */
+.task-grid-3-column {
+  display: grid;
+  grid-row-gap: 1rem;
+  grid-column-gap: 1rem;
+  padding-top:2rem;
+  justify-items: center;
+  align-items: center;
+}
+
+@media (min-width:29.375rem) {
+  .task-grid-3-column {
+    grid-template-columns: 1fr 1fr;
+    max-width: 30rem;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width:51.875rem) {
+  .task-grid-3-column {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 46rem;
+    margin: 0 auto;
+  }
+}
+
+/* 4 column */
+.four-column-grid {
+  display: grid;
+  grid-row-gap: 1rem;
+  grid-column-gap: 1rem;
+  padding-top:2rem;
+  justify-items: center;
+  align-items: center;
+}
+
+@media (min-width:29.375rem) {
+  .four-column-grid {
+    grid-template-columns: 1fr 1fr;
+    max-width: 30rem;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width:51.875rem) {
+  .four-column-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 46rem;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width:66.25rem) {
+  .four-column-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 60rem;
+    margin: 0 auto;
   }
 }
