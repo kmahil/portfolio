@@ -1,4 +1,8 @@
-/*      citations at end of page     */
+body {
+    margin: 0rem;
+    padding: 0rem;
+}
+
 /*    h, p */
 h2 {
     font-family: "Jost-Light";
@@ -75,6 +79,24 @@ p {
     }
 }
 
+.nav-padding {
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-left:2rem;
+    padding-bottom: 2rem;
+}
+
+/*      copyright section       */
+#copyright {
+    text-align: center;
+    padding: 1rem;
+}
+
+.copyright-project {
+    text-align: center;
+    padding: 1rem;
+    background-color: #FFDCF9;
+}
 
 /*      citaitons     */
 /* font: Jost
