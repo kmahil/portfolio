@@ -1,0 +1,144 @@
+h1 {
+    font-family: "H1";
+    font-size: 6rem;
+}
+
+/*     title block    */
+.title-color {
+    background-color: #8DD7F5;
+    margin-top: -2rem;
+    padding-bottom: 1rem;
+}
+
+/* main title */
+@media (min-width: 20rem) {
+    h1{
+        font-size: 2.5rem;
+        padding-left: 2rem;
+        padding-top: 2rem;
+    }
+    #project-description, #skills-tools {
+        padding-left:2rem;
+    }   
+    #skills-tools{
+        padding-left:2rem;
+    }
+  }
+
+@media (min-width: 47.688rem) {
+    h1 { 
+        font-size: 6rem;
+        max-width: 40rem;
+        padding-left: 4rem;
+        padding-top: 4rem;
+    }
+    #project-description {
+        padding-left:4rem;
+    }
+    #skills-tools{
+        padding-left:4rem;
+    }
+}
+
+#project-description {
+    max-width: 26rem;
+    margin-right: 2rem;
+    margin-top: -1rem;
+}
+
+#skills-tools {
+    display:grid;
+    grid-row-gap:1rem;
+    grid-column-gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    /* align-items:center; */
+}
+
+#skills-tools p{
+    /* font-family: "Jost-Light"; */
+    text-align: center;
+    background-color: white;
+    border-color: white;
+    border-width: 0.1rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    padding:1rem
+}
+
+@media (min-width: 47.688rem) {
+    #skills-tools {
+        grid-template-columns: 1fr 1fr;
+        max-width: 40rem;
+    }
+}
+
+.section-title {
+    margin-left: 5vw;
+    font-family: "Jost-Medium";
+    font-size: 1.5rem;
+  }
+
+/* ideation section */
+.ideation-section {
+    padding-top: 4rem;
+}
+  
+.ideation-paragraph {
+    margin-top: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 20rem) {
+    .ideation-paragraph {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+  }
+
+@media (min-width: 47.688rem) {
+    .ideation-paragraph {
+        margin-left: 27vw;
+        margin-right: 27vw;
+    }
+}
+
+.sketch-images {
+    display: grid;
+    grid-row-gap:2rem;
+    grid-column-gap: 1rem;
+    align-items: center;
+    justify-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.sketch-images img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width:74.313rem) {
+    .sketch-images {
+        grid-template-columns: 1fr 1fr;
+        max-width: 65rem;
+        margin: 0 auto;
+    }
+    .sketch-images > :nth-child(3) {
+        grid-column: span 2;
+        justify-self: center;
+    }
+}
+
+/*      prototype     */
+.prototype-sub-titles {
+    padding-top: 4rem;
+    margin-left: 5vw;
+    text-decoration: underline;
+  }
+
+.prototype-section {
+    margin-bottom: 4rem;
+}
