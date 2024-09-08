@@ -124,6 +124,10 @@ body {
 /*      prototype section     */
 .prototype {
   margin-bottom: 4rem;
+  margin-bottom: 2vh;
+  background-color: #F5F5F5;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .prototype-sub-titles {
