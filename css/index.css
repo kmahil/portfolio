@@ -127,6 +127,23 @@ img {
 }
 
 /*      rectangles     */
+.bg-story{
+    width:100%;
+    height:auto;
+    min-height: 30rem;
+    position: absolute;
+    z-index: 1;
+    margin-top: 1rem;
+}
+
+.bg-oppfest {
+    width:100%;
+    height:auto;
+    min-height: 30rem;
+    position: absolute;
+    z-index: 1;
+    margin-top: -16rem;
+}
 
 .bg-act{
     width:100%;
@@ -134,7 +151,7 @@ img {
     min-height: 30rem;
     position: absolute;
     z-index: 1;
-    margin-top: 10;
+    margin-top: -10rem;
 }
 
 .bg-adhd-app {
@@ -211,7 +228,7 @@ img {
     padding: 0.6rem;
     width: 5rem;
 
-    color: #715d36;
+    color: black;
     background-color: white;
     border: solid;
     border-width: 0.2rem;
@@ -228,6 +245,26 @@ img {
     background-color: #ad9230;
     border-color: #ad9230;
     color:white;
+}
+
+.story-button {
+    border-color: #553f4a;
+}
+
+.story-button:hover, .story-button:focus {
+    background-color: #553f4a;
+    border-color: #553f4a;
+    color: white;
+}
+
+.oppfest-button {
+    border-color: #181621;
+}
+
+.oppfest-button:hover, .oppfest-button:focus {
+    background-color: #181621;
+    border-color: #181621;
+    color: white;
 }
 
 .adhd-button {
