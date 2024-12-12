@@ -10,7 +10,7 @@ h1 {
     font-size: 3rem;
     }
   }
-  @media (min-width: 37.875rem) {
+@media (min-width: 37.875rem) {
     h1 { 
       font-size: 6rem;
     }
@@ -217,4 +217,8 @@ video {
     width: 100%; 
     height: auto;
     max-width: 60rem;
+}
+
+#view-story {
+    text-align: center;
 }
